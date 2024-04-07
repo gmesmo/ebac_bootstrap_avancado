@@ -1,0 +1,33 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: white;
+}
+
+.navbar-nav .nav-item .active {
+  background-color: #ff4655;
+  color: white;
+}
+
+.nav-link {
+  text-align: center;
+}
+
+section {
+  scroll-margin-top: 72px;
+  background-color: #ccc;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  width: 100dvw;
+  height: 70dvh;
+}
+
+.card img {
+  filter: invert(1);
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+}
